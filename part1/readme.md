@@ -24,3 +24,7 @@ psql -U postgres -d postgresql_part1 -f part1/02_first_schema.sql
 psql -U postgres -d postgresql_part1 -f part1/03_first_table.sql
 
 \dt basics.*
+
+psql -U postgres -d postgresql_part1 -f part1/04_data_types.sql
+
+psql -U postgres -d postgresql_part1 -f part1/05_other_data_types.sql
