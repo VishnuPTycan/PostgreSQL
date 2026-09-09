@@ -42,3 +42,5 @@ psql -U postgres -d postgresql_part1 -f part2/01_sql_concepts_base_file.sql
 psql -U postgres -d postgresql_part1 -f part2/02_insert_single_row.sql
 
 psql -U postgres -d postgresql_part1 -f part2/03_insert_multiple_rows.sql
+
+psql -U postgres -d postgresql_part1 -f part2\04_select_specific_cols_vs_select_star.sql
