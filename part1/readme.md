@@ -28,3 +28,5 @@ psql -U postgres -d postgresql_part1 -f part1/03_first_table.sql
 psql -U postgres -d postgresql_part1 -f part1/04_data_types.sql
 
 psql -U postgres -d postgresql_part1 -f part1/05_other_data_types.sql
+
+psql -U postgres -d postgresql_part1 -f part1/06_null_empty_string_zero.sql
