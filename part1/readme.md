@@ -34,3 +34,5 @@ psql -U postgres -d postgresql_part1 -f part1/06_null_empty_string_zero.sql
 psql -U postgres -d postgresql_part1 -f part1/07_constraints.sql
 
 psql -q postgres -d postgresql_part1
+
+psql -U postgres -d postgresql_part1 -f part1/08_primary_keys.sql
