@@ -43,4 +43,16 @@ psql -U postgres -d postgresql_part1 -f part2/02_insert_single_row.sql
 
 psql -U postgres -d postgresql_part1 -f part2/03_insert_multiple_rows.sql
 
-psql -U postgres -d postgresql_part1 -f part2\04_select_specific_cols_vs_select_star.sql
+psql -U postgres -d postgresql_part1 -f part2/04_select_specific_cols_vs_select_star.sql
+
+psql -U postgres -d postgresql_part1 -f part2/05_where_basic_filter.sql
+
+psql -U postgres -d postgresql_part1 -f part2/06_and_or_not_filters.sql
+
+psql -U postgres -d postgresql_part1 -f part2/07_like_ilike_patterns.sql
+
+psql -U postgres -d postgresql_part1 -f part2/08_in_not_in_between.sql
+
+psql -U postgres -d postgresql_part1 -f part2/09_null_and_is_not_null.sql
+
+psql -U postgres -d postgresql_part1 -f part2/10_order_by.sql
