@@ -56,3 +56,7 @@ psql -U postgres -d postgresql_part1 -f part2/08_in_not_in_between.sql
 psql -U postgres -d postgresql_part1 -f part2/09_null_and_is_not_null.sql
 
 psql -U postgres -d postgresql_part1 -f part2/10_order_by.sql
+
+psql -U postgres -d postgresql_part1 -f part2/11_limit_offset_pagination.sql
+
+psql -U postgres -d postgresql_part1 -f part2/12_update_single_row.sql
