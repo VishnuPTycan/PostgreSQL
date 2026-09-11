@@ -60,3 +60,9 @@ psql -U postgres -d postgresql_part1 -f part2/10_order_by.sql
 psql -U postgres -d postgresql_part1 -f part2/11_limit_offset_pagination.sql
 
 psql -U postgres -d postgresql_part1 -f part2/12_update_single_row.sql
+
+psql -U postgres -d postgresql_part1 -f part2/13_update_multiple_rows.sql
+
+psql -U postgres -d postgresql_part1 -f part2/14_delete_rows.sql
+
+psql -U postgres -d postgresql_part1 -f part2/15_returning_after_insert.sql
