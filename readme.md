@@ -66,3 +66,13 @@ psql -U postgres -d postgresql_part1 -f part2/13_update_multiple_rows.sql
 psql -U postgres -d postgresql_part1 -f part2/14_delete_rows.sql
 
 psql -U postgres -d postgresql_part1 -f part2/15_returning_after_insert.sql
+
+psql -U postgres -d postgresql_part1 -f part3/01_reset_and_seed_relationships.sql
+
+psql -U postgres -d postgresql_part1 -f part3/02_foreign_keys.sql
+
+psql -U postgres -d postgresql_part1 -f part3/03_one_to_many_relationship.sql
+
+psql -U postgres -d postgresql_part1 -f part3/04_inner_join.sql
+
+psql -U postgres -d postgresql_part1 -f part3/05_left_join.sql
