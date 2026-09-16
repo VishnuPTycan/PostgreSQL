@@ -76,3 +76,11 @@ psql -U postgres -d postgresql_part1 -f part3/03_one_to_many_relationship.sql
 psql -U postgres -d postgresql_part1 -f part3/04_inner_join.sql
 
 psql -U postgres -d postgresql_part1 -f part3/05_left_join.sql
+
+psql -U postgres -d postgresql_part1 -f part3/06_many_to_many_relationships.sql
+
+psql -U postgres -d postgresql_part1 -f part3/07_table_aliases.sql
+
+psql -U postgres -d postgresql_part1 -f part3/08_aggregate_functions.sql
+
+psql -U postgres -d postgresql_part1 -f part3/09_group_by.sql
