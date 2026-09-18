@@ -84,3 +84,11 @@ psql -U postgres -d postgresql_part1 -f part3/07_table_aliases.sql
 psql -U postgres -d postgresql_part1 -f part3/08_aggregate_functions.sql
 
 psql -U postgres -d postgresql_part1 -f part3/09_group_by.sql
+
+psql -U postgres -d postgresql_part1 -f part3/10_count_distinct.sql
+
+psql -U postgres -d postgresql_part1 -f part3/11_sub_queries.sql
+
+psql -U postgres -d postgresql_part1 -f part3/12_indexes.sql
+
+psql -U postgres -d postgresql_part1 -f part3/13_transactions.sql
